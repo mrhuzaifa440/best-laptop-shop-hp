@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>What is a computer network?</title>
+    <link rel="canonical" href="what-is-a-computer-network.html" />
+
+    <meta name="description" content="Discover the fundamentals of computer networks in our latest blog post. Learn what a computer network is, how it functions, and the various types that connect devices and facilitate communication. Perfect for beginners and tech enthusiasts alike!" />
+    <meta name="keywords" content="What is a computer network?" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" />
+    <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a computer network?","acceptedAnswer":{"@type":"Answer","text":"A computer network is a collection of interconnected devices that can communicate and share resources with each other. This can include computers, servers, printers, and other hardware connected through wired or wireless technologies."}},{"@type":"Question","name":"What are the main differences between wired and wireless networks?","acceptedAnswer":{"@type":"Answer","text":"Wired networks use physical cables to connect devices, offering stable connections and high speeds, while wireless networks use radio signals for connectivity, providing flexibility and mobility but can be affected by interference and signal range."}},{"@type":"Question","name":"What are the advantages of using a wireless network?","acceptedAnswer":{"@type":"Answer","text":"Wireless networks offer flexibility, allowing users to connect devices without being tethered to a specific location. They also enable easy setup and expansion, making them ideal for mobile devices and environments where cabling is impractical."}},{"@type":"Question","name":"What security threats do computer networks face?","acceptedAnswer":{"@type":"Answer","text":"Common threats to computer networks include malware, hacking attempts, phishing attacks, and denial-of-service (DoS) attacks. These threats can compromise data integrity, privacy, and overall network functionality."}},{"@type":"Question","name":"What devices are typically used in a computer network?","acceptedAnswer":{"@type":"Answer","text":"Key devices in a computer network include routers, switches, and hubs. Routers connect different networks and direct data traffic, switches connect devices within the same network, and hubs serve as basic connection points for devices to communicate."}}]}</script>
+    <style>
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient(#000000,#000000) !important;
+        }
+        .header-text-color{
+        color: #ffffff ;
+        }
+        .footer-text-color{
+        color: #ffffff ;
+        }
+        .footer-text-color .navbar-brand{
+        color: #ffffff;
+        }
+        .navbar-nav .active {
+        border-bottom: solid 1px #ffffff;
+        }
+        body {
+                    background-color: #292921;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #f1b914 !important;
+                    color:  #000000 !important;
+                    border: 1px solid #d6b914 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #1f1d17 !important;
+                    background-image: none;
+                }
+.dropdown-content2 a:hover{
+                    background-color:  #090806 !important;
+                    background-image: none;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .lmcy_hfollow, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #f1b914 !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #f1b914 !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: #f1b914 !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #f1b914;
+                }
+
+                footer .social-link {
+                    color: #1f1d17 !important;
+                    background-color: #f1b914 !important;
+                }
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #f1b914;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #ffffff;
+                }
+                .head-title {
+                    color: #f1b914 !important;
+                }
+                .head-tagline {
+                    color: #f1b914;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #f1b914 !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #f1b914 !important;
+                }
+
+                .btn-banner-theme {
+                    color: undefined;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+                .btn-theme {
+                    color: #000000;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #f1b914;
+                }
+
+                .card-text {
+                    color: #bbbbbb!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #bbbbbb!important;
+                    
+                }
+                .article-card-text {
+                    color: #B5B5B5;
+                  
+                }
+.article-card-text * {
+                    color: #B5B5B5 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #3e3d33;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #1d1c19 !important;
+                    border: 2px solid undefined !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #bbbbbb!important;
+                }
+                .article-info {
+                    color: #bbbbbb;
+                }
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+        <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                    <span class="navbar-brand" >
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="" onerror="this.remove()">
+                    </span>
+            <span class="navbar-brand header-text-color">Best Laptop Shop</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                <li class="nav-item {{home_active}}">
+                    <a class="nav-link header-text-color" href="index.html">Home</a>
+                </li>
+                <div class="nav-item {{service_active}} dropdown" style="display:">
+                    <button class="header-text-color dropbtn is-mobile">Services</button>
+                    <a class="nav-link header-text-color dropbtn is-desktop" href="pages.html">Pages</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-content2">
+                            <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="computer-networks.html">Computer Networks
+                                                                                        <span class="border-menu"></span></a></li>
+                        </div>
+                    </div>
+                </div>
+                <li class="nav-item active">
+                    <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item {{contact_active}}" style="display: none">
+                    <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: none">
+                <li class="nav-item" style="display: none">
+                    <a class="nav-link header-text-color" target="_blank" href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="display: none">
+                    <a class="nav-link header-text-color" target="_blank" href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="display: none">
+                    <a class="nav-link header-text-color" target="_blank" href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="display: none">
+                    <a class="nav-link header-text-color" target="_blank" href="">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="display: none">
+                    <a class="nav-link header-text-color" target="_blank" href="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container px-4 px-lg-5 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor p-4 article-card-text" id="sitewide-header" >
+            
+        </div>
+    </header>
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5 cards-container">
+        <!-- Heading Row-->
+        <div class="row">
+                <div class="col-lg-12">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1 main-heading">What is a computer network?</h1>
+                            <!-- Post meta content-->
+                            <div class="article-info fst-italic mb-2" style="display: {{show_date_auth_section}}"><span style="display: none">Posted By </span> <span style="display: none">on </span> <span style="display: inline">2024-09-25</span></div>
+                        </header>
+                        <!-- Preview image figure-->
+                        <figure class="mb-4"><img class="img-fluid rounded" src="what-is-a-computer-network-290608.jpg?key=hV8dHw" style="display: " alt="What is a computer network?" /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5 card-text">
+                            <H2>Wired vs. Wireless Networks</H2><p>Wired networks utilize physical cables to connect devices, providing stable and consistent performance. These connections often result in lower latency and increased security, as direct lines reduce the risk of interception. Installation can be cumbersome, requiring careful planning and infrastructure since cables must be routed through buildings or outdoor spaces. Despite this, wired networks are preferred in environments that demand high bandwidth, such as data centers or offices where reliability is crucial.<br/><br/>Wireless networks offer the convenience of mobility, allowing devices to connect without the restrictions of physical connections. This flexibility makes them ideal for home use and public spaces, facilitating easy access for multiple users. However, wireless signals can experience interference from various sources, leading to fluctuations in speed and reliability. Furthermore, the security of a wireless network is often a concern, as signals can be more susceptible to unauthorized access without proper encryption and protection measures in place.</p><H3>Advantages and Disadvantages of Each</H3><p>Wired networks typically offer faster and more stable connections compared to their wireless counterparts. The physical connections make them less susceptible to interference from other devices or environmental factors. This reliability makes wired networks an excellent choice for applications that require uninterrupted connectivity, like gaming or video conferencing. Security is generally stronger as well, given that physical access to the network is necessary to connect devices.<br/><br/>On the other hand, wireless networks provide unmatched convenience and flexibility. Users can connect multiple devices without being tethered to a specific location. This adaptability allows for easier collaboration in shared workspaces and supports mobile devices seamlessly. However, wireless networks can face challenges including signal interference and security vulnerabilities, which can compromise data integrity and user privacy. The ease of access can also mean that unauthorized users might connect to the network if not adequately secured.</p><H2>Security in Computer Networks</H2><p>In the digital landscape, the security of computer networks has become increasingly vital. With the rise of cyber threats, organizations must prioritize safeguarding their data and systems. Effective network security involves a combination of hardware and software solutions designed to protect against unauthorized access, data breaches, and various attack methods. Organizations often implement firewalls, intrusion detection systems, and encryption protocols to create robust defenses against potential vulnerabilities.<br/><br/>Maintaining security requires continuous monitoring and assessment of network activity. Regular updates to software and hardware components help mitigate risks associated with outdated systems. Additionally, educating users about best practices for safe internet use can significantly reduce the likelihood of security breaches. By fostering a culture of awareness and applying appropriate security measures, organizations can create a resilient network that stands up to evolving threats.</p><H3>Common Threats and Protection Strategies</H3><p>Cybersecurity remains a critical concern for any computer network. Common threats include malware, phishing attacks, and denial-of-service (DoS) attacks. Malware, which encompasses viruses and ransomware, can infiltrate networks, causing significant damage or data loss. Phishing attempts trick users into divulging sensitive information, while DoS attacks overwhelm a network, rendering it inaccessible to legitimate users. The constantly evolving threat landscape requires vigilance and proactive measures to safeguard networks.<br/><br/>Organizations implement various protection strategies to counter these threats. Firewalls serve as the first line of defense, controlling incoming and outgoing traffic based on predetermined security rules. Intrusion detection systems (IDS) monitor network activity for suspicious behavior. Regular software updates and patches also play a vital role in closing vulnerabilities. Employee training raises awareness about potential threats, empowering users to identify and report suspicious activity. Through a combination of technology and education, networks can enhance their security posture significantly.</p><H2>Network Devices</H2><p>Network devices play a crucial role in facilitating communication within a computer network. Routers, switches, and hubs are among the primary devices that manage data traffic and ensure efficient connectivity among computers and other devices. Routers direct data packets between different networks, allowing multiple networks to communicate. Switches operate within a single network, managing the flow of data between connected devices by using MAC addresses to forward information to the correct destination. Hubs, while less commonly used today, serve as basic connection points that transmit data to all devices on a network segment.<br/><br/>In addition to these core devices, there are other components that enhance network performance and security. Firewalls monitor and filter incoming and outgoing data, providing an essential barrier against unauthorized access. Access points extend wireless coverage and connect Wi-Fi devices to a wired network. Modems act as gateways, converting digital signals to analog so that data can be transmitted over telephone lines or cable systems. Understanding the functions of these devices helps in designing and maintaining an efficient and secure computer network.</p><H3>Routers, Switches, and Hubs</H3><p>Routers play a crucial role in directing data packets between different networks. They analyze the destination address of each packet and decide the optimal path for its journey. By connecting various devices within a local area network (LAN) to the internet, routers facilitate communication between users and web services. They often include features like built-in firewalls for added security, which protects the internal network from external threats.<br/><br/>Switches, on the other hand, operate within a LAN to connect multiple devices like computers and printers. They make intelligent decisions about how to forward data frames based on the MAC addresses of devices, ensuring efficient data transfer. Hubs are simpler devices that also connect multiple devices within a network but operate on a basic level by broadcasting data to all connected devices. This can lead to network congestion, as it does not distinguish between destinations like switches do, making them less efficient in larger networks.</p><h2>FAQS</h2><h3>What is a computer network?</h3><p>A computer network is a collection of interconnected devices that can communicate and share resources with each other. This can include computers, servers, printers, and other hardware connected through wired or wireless technologies.</p><h3>What are the main differences between wired and wireless networks?</h3><p>Wired networks use physical cables to connect devices, offering stable connections and high speeds, while wireless networks use radio signals for connectivity, providing flexibility and mobility but can be affected by interference and signal range.</p><h3>What are the advantages of using a wireless network?</h3><p>Wireless networks offer flexibility, allowing users to connect devices without being tethered to a specific location. They also enable easy setup and expansion, making them ideal for mobile devices and environments where cabling is impractical.</p><h3>What security threats do computer networks face?</h3><p>Common threats to computer networks include malware, hacking attempts, phishing attacks, and denial-of-service (DoS) attacks. These threats can compromise data integrity, privacy, and overall network functionality.</p><h3>What devices are typically used in a computer network?</h3><p>Key devices in a computer network include routers, switches, and hubs. Routers connect different networks and direct data traffic, switches connect devices within the same network, and hubs serve as basic connection points for devices to communicate.</p>
+                            <hr /><h3>Related Links</h3><a class="text-theme" href="computer-networks.html">Computer Networks</a><br />
+
+                         </section>
+                    </article>
+
+                </div>
+
+            </div>
+    </div>
+    <div class="">
+        <div>
+            
+        </div>
+    </div>
+    <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</div>
+</div>
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center ">
+
+    <div class="container ">
+        <div class="row  py-lg-3" >
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%"><h2><a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="" onerror="this.remove()"></a></h2></td>
+                        <td style="text-align: left" class=""><h2><a style="text-decoration: auto;" href="index.html">Best Laptop Shop</a></h2></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-map-marker-alt footer-text-color"></i></td>
+                        <td style="text-align: left" class=""></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-phone footer-text-color"></i></td>
+                        <td style="text-align: left" class=" "></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-envelope footer-text-color"></i></td>
+                        <td style="text-align: left" class=""></td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: none"><a class="" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: none"><a class="" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none">
+        <li class="list-inline-item" style="display: none">
+            <a  style="text-decoration: none" class="  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a  style="text-decoration: none" class="  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a  style="text-decoration: none" class="  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a  style="text-decoration: none" class="  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a  style="text-decoration: none" class=" mr-3" target="_blank"  href=""><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="">
+        <hr/>
+    </div>
+    <div class="container"><p class="m-0 text-center ">Copyright &copy; Best Laptop Shop. All Rights Reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+<script>
+    document.getElementsByTagName('head')[0].innerHTML = document.getElementsByTagName('head')[0].innerHTML.replace('REPLACE_WITH_URL', window.location.href);
+</script></body>
+</html>
